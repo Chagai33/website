@@ -1,10 +1,13 @@
 import { useLanguage } from '../context/LanguageContext';
-import siteContent from '../data/site-content.json';
+import rawSiteContent from '../data/site-content.json';
+const siteContent = rawSiteContent as any;
 import { Code2, Server } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export const About = () => {
   const { t } = useLanguage();
+
+  if (!siteContent.about) return null;
 
   return (
     <section id="about" className="py-32">

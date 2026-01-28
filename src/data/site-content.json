@@ -5,8 +5,7 @@
     "socials": {
       "linkedin": "https://www.linkedin.com/in/chagai-yechiel/",
       "github": "https://github.com/Chagai33",
-      "email": "chagai33@gmail.com",
-      "photography": "https://chagai.pro"
+      "email": "mailto:chagai33@gmail.com"
     }
   },
   "hero": {
@@ -15,8 +14,8 @@
       "en": "Bridging the Gap Between Infrastructure and Code."
     },
     "subtitle": {
-      "he": "ארכיטקט מערכות ומפתח Full-Stack. אני פותר את ה'פינג-פונג' המתיש שבין ה-IT לפיתוח ולוקח בעלות מקצה לקצה – מהשרת ועד הפיקסל האחרון.",
-      "en": "System Architect & Full-Stack Developer. I eliminate the friction between IT and Dev teams by taking end-to-end ownership—from the bare metal to the final pixel."
+      "he": "ארכיטקט מערכות ומפתח Full-Stack. אני מאמין שפתרונות גדולים לא חייבים להיות מסובכים – הם צריכים להיות יציבים, נגישים ולפתור כאב אמיתי.",
+      "en": "System Architect & Full-Stack Developer. I believe great solutions don't have to be complex—they just need to be stable, accessible, and solve real friction."
     },
     "cta": {
       "he": "בוא נבנה משהו יציב",
@@ -25,12 +24,12 @@
   },
   "about": {
     "title": {
-      "he": "הדרך שלי",
-      "en": "My Journey"
+      "he": "קצת עלי",
+      "en": "About Me"
     },
     "content": {
-      "he": "המהלך המקצועי שלי אינו שגרתי. התחלתי את דרכי בעולמות ה-IT והסיסטם (10+ שנים), שם ניהלתי שרתים ופתרתי תקלות זמן-אמת. משם עברתי לפיתוח (4 שנים) מתוך הבנה שכדי לפתור בעיות שורש, צריך לשלוט בלוגיקה עצמה. שנות הלימוד בישיבה חידדו את היכולת שלי לניתוח מעמיק, פירוק בעיות מורכבות לרכיבים, וחשיבה לוגית מופשטת – כלים שמשרתים אותי היום בכל תכנון ארכיטקטורה ודיבאג מורכב.",
-      "en": "My path is unconventional. I started in IT & System Admin (10+ years), managing servers and solving real-time crises. I transitioned to Development (4 years) realizing that root-cause solutions require mastering the logic itself. Years of Yeshiva study sharpened my ability for deep analysis, breaking down complex problems into components, and abstract logical thinking—tools that serve me today in every architectural design and complex debugging session."
+      "he": "אני חגי, ארכיטקט מערכות ומפתח Full-Stack עם תשוקה לחיבור בין עולמות התשתית והפיתוח. אני מתמחה בבניית מערכות יציבות, סקיילביליות ויעילות, תוך שימת דגש על חווית משתמש ופשטות תפעולית.",
+      "en": "I'm Chagai, a System Architect & Full-Stack Developer passionate about bridging infrastructure and development. I specialize in building stable, scalable, and efficient systems, focusing on user experience and operational simplicity."
     }
   },
   "projects": [
@@ -41,13 +40,13 @@
         "en": "HebBirthday"
       },
       "description": {
-        "he": "מערכת SaaS לסנכרון ימי הולדת עבריים ללוח השנה הלועזי.",
-        "en": "SaaS platform for syncing Hebrew birthdays to Gregorian calendars."
+        "he": "פתרון לבעיית פספוס ימי הולדת עבריים. סנכרון דו-כיווני חכם ל-Google Calendar.",
+        "en": "Solving the 'missed Hebrew birthday' issue via smart bi-directional Google Calendar sync."
       },
       "techStack": [
         "Node.js",
         "React",
-        "Calendar APIs"
+        "Calendar API"
       ],
       "url": "https://hebbirthday.app/",
       "highlight": true
@@ -59,99 +58,136 @@
         "en": "Shishi Shitufi"
       },
       "description": {
-        "he": "פלטפורמת אוטומציה לוגיסטית לחלוקת משאבים קהילתית.",
-        "en": "Logistics automation platform for community resource distribution."
+        "he": "פלטפורמה לניהול לוגיסטיקה קהילתית בזמן אמת. מחליפה טבלאות אקסל מסורבלות בממשק נגיש.",
+        "en": "Real-time community logistics platform. Replaces chaotic spreadsheets with a seamless mobile interface."
       },
       "techStack": [
         "Firebase",
-        "Cloud Functions",
-        "Automation"
+        "React",
+        "Live DB"
       ],
       "url": "https://shishi-shitufi.netlify.app/",
       "highlight": true
     },
     {
-      "id": "aum-radar",
+      "id": "mantzur-gallery",
       "title": {
-        "he": "AumRadar",
-        "en": "AumRadar"
+        "he": "Mantzur Gallery",
+        "en": "Mantzur Gallery"
       },
       "description": {
-        "he": "בוט חכם לניהול וסריקת פלייליסטים בספוטיפיי בזמן אמת.",
-        "en": "Smart bot for real-time Spotify playlist scanning and management."
+        "he": "גלריית הנצחה לאירועים משפחתיים. פתרון Plug-and-Play שמחליף מצגות ומבטל את הצורך בהעברת קבצים.",
+        "en": "Event-oriented memorial gallery. A Plug-and-Play solution replacing static slides, ensuring zero-transfer compatibility."
       },
       "techStack": [
-        "Spotify API",
-        "Python",
-        "Node.js"
+        "Vite",
+        "React",
+        "Responsive"
       ],
-      "url": null,
+      "url": "https://mantzur.netlify.app/",
       "highlight": false
     },
     {
-      "id": "scratch-gdrive",
+      "id": "safephrase",
       "title": {
-        "he": "Scratch-from-GDrive",
-        "en": "Scratch-from-GDrive"
+        "he": "SafePhrase IT",
+        "en": "SafePhrase IT"
       },
       "description": {
-        "he": "סקריפט אוטומציה ליצירת תוכן מורכב ישירות מ-Google Drive.",
-        "en": "Complex automation script generating content directly from Google Drive."
+        "he": "כלי Proactive לצוותי IT. מחשב תאריכי איפוס סיסמה בטוחים כדי למנוע עומס על ה-Help Desk בסופ\"ש וחגים.",
+        "en": "Proactive IT utility calculating safe password reset dates to minimize Help Desk load on weekends & holidays."
       },
       "techStack": [
-        "Google APIs",
-        "Scripting"
+        "Utility",
+        "Date Logic",
+        "Automation"
       ],
-      "url": "https://github.com/Chagai33",
+      "url": "https://safephrase.netlify.app/",
+      "highlight": false
+    },
+    {
+      "id": "phrasepass",
+      "title": {
+        "he": "PhrasePass",
+        "en": "PhrasePass"
+      },
+      "description": {
+        "he": "מחולל סיסמאות מבוסס משפטים (Mnemonic). פותר את הטרייד-אוף שבין אבטחת מידע לנוחות המשתמש.",
+        "en": "Mnemonic password generator. Solves the security-vs-usability trade-off using smart client-side logic."
+      },
+      "techStack": [
+        "Security",
+        "UX",
+        "Algorithms"
+      ],
+      "url": "https://phrasepass.netlify.app/",
+      "highlight": false
+    },
+    {
+      "id": "aum-extension",
+      "title": {
+        "he": "AumExtension",
+        "en": "AumExtension"
+      },
+      "description": {
+        "he": "תוסף כרום ל-Power Users בספוטיפיי. פותר את חיכוך הכפילויות (Duplicate Tracks) ע\"י הזרקת אינדיקטורים ל-DOM.",
+        "en": "Chrome Extension for Spotify power users. Solves duplicate track friction via real-time DOM injection."
+      },
+      "techStack": [
+        "Chrome Ext",
+        "Spotify API",
+        "DOM"
+      ],
+      "url": "https://github.com/Chagai33/AumExtension",
       "highlight": false
     }
   ],
   "credo": {
     "title": {
       "he": "אני מאמין",
-      "en": "Core Principles"
+      "en": "Core Philosophy"
     },
     "items": [
       {
         "title": {
-          "he": "Extreme Ownership",
-          "en": "Extreme Ownership"
+          "he": "Utility First",
+          "en": "Utility First"
         },
         "text": {
-          "he": "אחריות מקצה לקצה. אין 'זה אצל ה-DevOps'.",
-          "en": "End-to-end responsibility. No passing the buck."
+          "he": "לא כל כלי צריך להיות מורכב. הכלים הטובים ביותר הם אלו שחוסכים זמן יקר ומפחיתים חיכוך.",
+          "en": "Not everything needs to be complex. The best tools are those that save time and reduce friction."
         }
       },
       {
         "title": {
-          "he": "Pragmatism",
-          "en": "Pragmatism"
+          "he": "Bridging Contexts",
+          "en": "Bridging Contexts"
         },
         "text": {
-          "he": "קוד נקי זה חשוב, פתרון שעובד חשוב יותר.",
-          "en": "Clean code matters, working solutions matter more."
+          "he": "היכולת להבין גם את השרת וגם את הלקוח מאפשרת לי לבנות פתרונות מלאים ויציבים יותר.",
+          "en": "Understanding both the server and the client allows me to build more stable, complete solutions."
         }
       },
       {
         "title": {
-          "he": "Code as a Lever",
-          "en": "Code as a Lever"
+          "he": "Automation as a Habit",
+          "en": "Automation as a Habit"
         },
         "text": {
-          "he": "אם עושים את זה פעמיים - עשה לזה אוטומציה.",
-          "en": "If you do it twice, automate it."
+          "he": "אם עושים את זה יותר מפעמיים ידנית - הגיע הזמן לכתוב לזה סקריפט.",
+          "en": "If you do it manually more than twice, it's time to script it."
         }
       }
     ]
   },
   "humanSide": {
     "title": {
-      "he": "מעבר למקלדת",
-      "en": "Beyond the Keyboard"
+      "he": "מעבר לקוד",
+      "en": "Beyond Code"
     },
     "text": {
-      "he": "מוזיקה, טיולים וצילום. ניתן לראות את עבודות הצילום שלי בפורטפוליו הנפרד.",
-      "en": "Music, travel, and photography. View my photography work in the dedicated portfolio."
+      "he": "צילום, מוזיקה וסקרנות טכנולוגית. מוזמנים להציץ בעולם הצילום שלי.",
+      "en": "Photography, Music, and Tech Curiosity. Check out my photography portfolio."
     },
     "link": "https://chagai.pro",
     "linkText": {
