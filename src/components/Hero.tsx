@@ -6,7 +6,7 @@ export const Hero = () => {
   const { t } = useLanguage();
 
   const skills = [
-    "React", "Node.js", "Python", "Firebase", "Docker", "Google Workspace API", "Linux/Bash"
+    "React", "Node.js", "Python", "Firebase", "Docker", "Google Workspace API", "TypeScript"
   ];
 
   return (

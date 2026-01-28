@@ -1,5 +1,6 @@
 import { useLanguage } from '../context/LanguageContext';
-import { Languages, Code2 } from 'lucide-react';
+import { Languages, Code2, Github, Linkedin } from 'lucide-react';
+import siteContent from '../data/site-content.json';
 
 export const Navbar = () => {
   const { language, toggleLanguage, t } = useLanguage();
@@ -45,7 +46,7 @@ export const Navbar = () => {
         </div>
 
         {/* Language & Actions */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <button
             onClick={toggleLanguage}
             aria-label={`Switch to ${language === 'he' ? 'English' : 'Hebrew'}`}
@@ -54,13 +55,26 @@ export const Navbar = () => {
             <Languages className="w-4 h-4" />
           </button>
 
+          <div className="w-px h-4 bg-white/10 mx-1" />
+
           <a
-            href="https://github.com/chagai-tadmit"
+            href={siteContent.meta.socials.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:block px-4 py-1.5 text-xs font-mono font-medium bg-white text-black rounded hover:bg-zinc-200 transition-colors"
+            className="p-2 text-zinc-400 hover:text-blue-400 hover:bg-white/5 rounded-md transition-colors"
+            aria-label="LinkedIn"
           >
-            GITHUB
+            <Linkedin className="w-5 h-5" />
+          </a>
+
+          <a
+            href={siteContent.meta.socials.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 text-zinc-400 hover:text-white hover:bg-white/5 rounded-md transition-colors"
+            aria-label="GitHub"
+          >
+            <Github className="w-5 h-5" />
           </a>
         </div>
       </div>
