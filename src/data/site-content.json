@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "author": "Chagai Yechiel",
+    "role": "System Architect & Full-Stack Developer",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/chagai-yechiel/",
+      "github": "https://github.com/Chagai33",
+      "email": "chagai33@gmail.com",
+      "photography": "https://chagai.pro"
+    }
+  },
+  "hero": {
+    "title": {
+      "he": "מגשר על התהום שבין התשתית לקוד.",
+      "en": "Bridging the Gap Between Infrastructure and Code."
+    },
+    "subtitle": {
+      "he": "ארכיטקט מערכות ומפתח Full-Stack. אני פותר את ה'פינג-פונג' המתיש שבין ה-IT לפיתוח ולוקח בעלות מקצה לקצה – מהשרת ועד הפיקסל האחרון.",
+      "en": "System Architect & Full-Stack Developer. I eliminate the friction between IT and Dev teams by taking end-to-end ownership—from the bare metal to the final pixel."
+    },
+    "cta": {
+      "he": "בוא נבנה משהו יציב",
+      "en": "Let's Build Something Solid"
+    }
+  },
+  "about": {
+    "title": {
+      "he": "הדרך שלי",
+      "en": "My Journey"
+    },
+    "content": {
+      "he": "המהלך המקצועי שלי אינו שגרתי. התחלתי את דרכי בעולמות ה-IT והסיסטם (10+ שנים), שם ניהלתי שרתים ופתרתי תקלות זמן-אמת. משם עברתי לפיתוח (4 שנים) מתוך הבנה שכדי לפתור בעיות שורש, צריך לשלוט בלוגיקה עצמה. שנות הלימוד בישיבה חידדו את היכולת שלי לניתוח מעמיק, פירוק בעיות מורכבות לרכיבים, וחשיבה לוגית מופשטת – כלים שמשרתים אותי היום בכל תכנון ארכיטקטורה ודיבאג מורכב.",
+      "en": "My path is unconventional. I started in IT & System Admin (10+ years), managing servers and solving real-time crises. I transitioned to Development (4 years) realizing that root-cause solutions require mastering the logic itself. Years of Yeshiva study sharpened my ability for deep analysis, breaking down complex problems into components, and abstract logical thinking—tools that serve me today in every architectural design and complex debugging session."
+    }
+  },
+  "projects": [
+    {
+      "id": "hebbirthday",
+      "title": {
+        "he": "HebBirthday",
+        "en": "HebBirthday"
+      },
+      "description": {
+        "he": "מערכת SaaS לסנכרון ימי הולדת עבריים ללוח השנה הלועזי.",
+        "en": "SaaS platform for syncing Hebrew birthdays to Gregorian calendars."
+      },
+      "techStack": [
+        "Node.js",
+        "React",
+        "Calendar APIs"
+      ],
+      "url": "https://hebbirthday.app/",
+      "highlight": true
+    },
+    {
+      "id": "shishi-shitufi",
+      "title": {
+        "he": "שישי שיתופי",
+        "en": "Shishi Shitufi"
+      },
+      "description": {
+        "he": "פלטפורמת אוטומציה לוגיסטית לחלוקת משאבים קהילתית.",
+        "en": "Logistics automation platform for community resource distribution."
+      },
+      "techStack": [
+        "Firebase",
+        "Cloud Functions",
+        "Automation"
+      ],
+      "url": "https://shishi-shitufi.netlify.app/",
+      "highlight": true
+    },
+    {
+      "id": "aum-radar",
+      "title": {
+        "he": "AumRadar",
+        "en": "AumRadar"
+      },
+      "description": {
+        "he": "בוט חכם לניהול וסריקת פלייליסטים בספוטיפיי בזמן אמת.",
+        "en": "Smart bot for real-time Spotify playlist scanning and management."
+      },
+      "techStack": [
+        "Spotify API",
+        "Python",
+        "Node.js"
+      ],
+      "url": null,
+      "highlight": false
+    },
+    {
+      "id": "scratch-gdrive",
+      "title": {
+        "he": "Scratch-from-GDrive",
+        "en": "Scratch-from-GDrive"
+      },
+      "description": {
+        "he": "סקריפט אוטומציה ליצירת תוכן מורכב ישירות מ-Google Drive.",
+        "en": "Complex automation script generating content directly from Google Drive."
+      },
+      "techStack": [
+        "Google APIs",
+        "Scripting"
+      ],
+      "url": "https://github.com/Chagai33",
+      "highlight": false
+    }
+  ],
+  "credo": {
+    "title": {
+      "he": "אני מאמין",
+      "en": "Core Principles"
+    },
+    "items": [
+      {
+        "title": {
+          "he": "Extreme Ownership",
+          "en": "Extreme Ownership"
+        },
+        "text": {
+          "he": "אחריות מקצה לקצה. אין 'זה אצל ה-DevOps'.",
+          "en": "End-to-end responsibility. No passing the buck."
+        }
+      },
+      {
+        "title": {
+          "he": "Pragmatism",
+          "en": "Pragmatism"
+        },
+        "text": {
+          "he": "קוד נקי זה חשוב, פתרון שעובד חשוב יותר.",
+          "en": "Clean code matters, working solutions matter more."
+        }
+      },
+      {
+        "title": {
+          "he": "Code as a Lever",
+          "en": "Code as a Lever"
+        },
+        "text": {
+          "he": "אם עושים את זה פעמיים - עשה לזה אוטומציה.",
+          "en": "If you do it twice, automate it."
+        }
+      }
+    ]
+  },
+  "humanSide": {
+    "title": {
+      "he": "מעבר למקלדת",
+      "en": "Beyond the Keyboard"
+    },
+    "text": {
+      "he": "מוזיקה, טיולים וצילום. ניתן לראות את עבודות הצילום שלי בפורטפוליו הנפרד.",
+      "en": "Music, travel, and photography. View my photography work in the dedicated portfolio."
+    },
+    "link": "https://chagai.pro",
+    "linkText": {
+      "he": "לפורטפוליו הצילום (chagai.pro)",
+      "en": "Visit Photography Portfolio"
+    }
+  }
+}
