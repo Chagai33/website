@@ -10,14 +10,14 @@ export const Hero = () => {
   ];
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden pt-12 md:pt-20">
 
       {/* Radial Gradient Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500/20 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="container max-w-7xl mx-auto px-6 relative z-10">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
 
           {/* Text Content - Aligned Start (First in DOM) */}
           <div className="text-start">
@@ -26,7 +26,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-block px-3 py-1 mb-6 border border-blue-500/30 bg-blue-500/10 rounded-full"
+              className="inline-block px-3 py-1 mb-3 md:mb-6 border border-blue-500/30 bg-blue-500/10 rounded-full"
             >
               <span className="text-blue-400 text-xs font-mono tracking-wider font-medium uppercase">
                 {t({ he: 'ארכיטקטורת מערכת & פיתוח', en: 'System Architecture & Development' })}
@@ -38,7 +38,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.5 }}
-              className="text-6xl md:text-8xl font-black mb-6 leading-tight tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/50"
+              className="text-6xl md:text-8xl font-black mb-3 md:mb-6 leading-tight tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/50"
             >
               {t({
                 he: 'הגשר בין תשתית לקוד.',
@@ -51,7 +51,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="text-lg md:text-xl text-zinc-400 font-light max-w-2xl mb-10 leading-relaxed text-balance"
+              className="text-lg md:text-xl text-zinc-400 font-light max-w-2xl mb-6 md:mb-10 leading-relaxed text-balance"
             >
               {t({
                 he: 'מעל 10 שנים כאיש סיסטם שהפך למפתח Full-Stack. אני לא רק כותב קוד; אני מתכנן את הסביבה בה הוא חי.',
