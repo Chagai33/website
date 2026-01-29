@@ -10,12 +10,12 @@
   },
   "hero": {
     "title": {
-      "he": "פחות טעויות. פחות התעסקות. יותר עבודה שקטה.",
-      "en": "Fewer Errors. Less Hassle. More Quiet Work."
+      "he": "לפתור מהשורש. לא עוד 'פלסטרים'.",
+      "en": "Solving at the Root. No More Band-Aids."
     },
     "subtitle": {
-      "he": "איש סיסטם שמפתח כדי לייעל תהליכים, לצמצם טעויות, ולבנות מערכות שאפשר לסמוך עליהן לאורך זמן.",
-      "en": "A systems person who develops to streamline processes, reduce errors, and build systems you can rely on long-term."
+      "he": "מעבר מגישה של 'כיבוי שריפות' ופתרונות זמניים, לפיתוח כלים פנימיים וקוד שמחסלים את מוקדי החיכוך בארגון אחת ולתמיד.",
+      "en": "Moving beyond firefighting and temporary fixes, to building internal tools and code that eliminate friction points in the organization once and for all."
     },
     "cta": {
       "he": "נבחן איך למנוע את התקלה הבאה",
@@ -38,8 +38,8 @@
   },
   "services": {
     "title": {
-      "he": "ארגז כלים של 'בנאי', לא רק של מתכנת",
-      "en": "A Builder's Toolbox, Not Just a Coder's"
+      "he": "פתרונות טכנולוגיים, לא רק שורות קוד",
+      "en": "Technology Solutions, Not Just Lines of Code"
     },
     "items": [
       {
@@ -74,75 +74,102 @@
       }
     ]
   },
-  "projects": [
-    {
-      "id": "hebbirthday",
-      "title": {
-        "he": "HebBirthday",
-        "en": "HebBirthday"
-      },
-      "type": {
-        "he": "SaaS Platform",
-        "en": "SaaS Platform"
-      },
-      "description": {
-        "he": "אתגר: סנכרון מורכב בין לוחות שנה (עברי/לועזי) שדרש חישובים ידניים חוזרים. פתרון: מערכת Serverless (GCP) שפועלת ב-Scale של אלפי משתמשים עם אפס תחזוקה שוטפת. תוצאה: אוטומציה מלאה של תהליך הניהול, מרמת הרישום ועד הסנכרון ליומן.",
-        "en": "Challenge: Complex sync between calendars (Hebrew/Gregorian) requiring repeated manual calculations. Solution: Serverless system (GCP) operating at scale with thousands of users and zero ongoing maintenance. Result: Full automation from registration to calendar sync."
-      },
-      "techStack": [
-        "React",
-        "Node.js",
-        "GCP",
-        "Firebase"
-      ],
-      "url": "https://hebbirthday.app/",
-      "highlight": true
+  "projects": {
+    "title": {
+      "he": "מערכות שנבנו כדי לעבוד (ולתת שקט)",
+      "en": "Systems Built to Work (and Bring Peace of Mind)"
     },
-    {
-      "id": "shishi-shitufi",
-      "title": {
-        "he": "שישי שיתופי",
-        "en": "Shishi Shitufi"
+    "items": [
+      {
+        "id": "hebbirthday",
+        "name": {
+          "he": "HebBirthday",
+          "en": "HebBirthday"
+        },
+        "type": {
+          "he": "SaaS Platform",
+          "en": "SaaS Platform"
+        },
+        "challenge": {
+          "he": "סנכרון מורכב בין לוחות שנה (עברי/לועזי) שדרש חישובים ידניים חוזרים.",
+          "en": "Complex sync between calendars (Hebrew/Gregorian) requiring repeated manual calculations."
+        },
+        "solution": {
+          "he": "מערכת Serverless (GCP) שפועלת ב-Scale של אלפי משתמשים עם אפס תחזוקה שוטפת.",
+          "en": "Serverless system (GCP) operating at scale with thousands of users and zero ongoing maintenance."
+        },
+        "result": {
+          "he": "אוטומציה מלאה של תהליך הניהול, מרמת הרישום ועד הסנכרון ליומן.",
+          "en": "Full automation from registration to calendar sync."
+        },
+        "techStack": [
+          "React",
+          "Node.js",
+          "GCP",
+          "Firebase"
+        ],
+        "url": "https://hebbirthday.app/"
       },
-      "type": {
-        "he": "Logistics Management",
-        "en": "Logistics Management"
+      {
+        "id": "shishi-shitufi",
+        "name": {
+          "he": "שישי שיתופי",
+          "en": "Shishi Shitufi"
+        },
+        "type": {
+          "he": "Logistics Management",
+          "en": "Logistics Management"
+        },
+        "challenge": {
+          "he": "ניהול לוגיסטי של אירועים קהילתיים שהתבסס על אקסלים וגרם לטעויות וכפילויות בציוד.",
+          "en": "Event logistics management based on spreadsheets causing errors and equipment duplications."
+        },
+        "solution": {
+          "he": "פלטפורמת Real-time שמסנכרנת מאות משתמשים במקביל ומונעת התנגשויות בזמן אמת.",
+          "en": "Real-time platform syncing hundreds of users simultaneously, preventing conflicts in real-time."
+        },
+        "result": {
+          "he": "חיסול מוחלט של ה'טלפון השבור' בארגון האירוע.",
+          "en": "Complete elimination of 'broken telephone' in event organization."
+        },
+        "techStack": [
+          "React",
+          "Firebase Realtime DB",
+          "Tailwind"
+        ],
+        "url": "https://shishi-shitufi.netlify.app/"
       },
-      "description": {
-        "he": "אתגר: ניהול לוגיסטי של אירועים קהילתיים שהתבסס על אקסלים וגרם לטעויות וכפילויות בציוד. פתרון: פלטפורמת Real-time שמסנכרנת מאות משתמשים במקביל ומונעת התנגשויות בזמן אמת. תוצאה: חיסול מוחלט של ה'טלפון השבור' בארגון האירוע.",
-        "en": "Challenge: Event logistics management based on spreadsheets causing errors and equipment duplications. Solution: Real-time platform syncing hundreds of users simultaneously, preventing conflicts in real-time. Result: Complete elimination of 'broken telephone' in event organization."
-      },
-      "techStack": [
-        "React",
-        "Firebase Realtime DB",
-        "Tailwind"
-      ],
-      "url": "https://shishi-shitufi.netlify.app/",
-      "highlight": true
-    },
-    {
-      "id": "it-automation",
-      "title": {
-        "he": "Internal IT Automation",
-        "en": "Internal IT Automation"
-      },
-      "type": {
-        "he": "Corporate Tooling",
-        "en": "Corporate Tooling"
-      },
-      "description": {
-        "he": "אתגר: תהליך Onboarding ידני ואיטי שגזל זמן יקר מצוות ה-IT. פתרון: פיתוח כלי פנימי לניהול נכסים ותהליכים אוטומטיים. תוצאה: קיצור זמן הטיפול בקריאות ב-40% וצמצום טעויות בהקצאת ציוד.",
-        "en": "Challenge: Manual, slow onboarding process consuming valuable IT team time. Solution: Internal tool for asset management and automated workflows. Result: 40% reduction in ticket handling time and fewer equipment allocation errors."
-      },
-      "techStack": [
-        "Python",
-        "PowerShell",
-        "AppSheet"
-      ],
-      "url": null,
-      "highlight": true
-    }
-  ],
+      {
+        "id": "it-automation",
+        "name": {
+          "he": "Internal IT Automation",
+          "en": "Internal IT Automation"
+        },
+        "type": {
+          "he": "Corporate Tooling",
+          "en": "Corporate Tooling"
+        },
+        "challenge": {
+          "he": "תהליך Onboarding ידני ואיטי שגזל זמן יקר מצוות ה-IT.",
+          "en": "Manual, slow onboarding process consuming valuable IT team time."
+        },
+        "solution": {
+          "he": "פיתוח כלי פנימי לניהול נכסים ותהליכים אוטומטיים.",
+          "en": "Internal tool for asset management and automated workflows."
+        },
+        "result": {
+          "he": "קיצור זמן הטיפול בקריאות ב-40% וצמצום טעויות בהקצאת ציוד.",
+          "en": "40% reduction in ticket handling time and fewer equipment allocation errors."
+        },
+        "techStack": [
+          "Python",
+          "PowerShell",
+          "AppSheet"
+        ],
+        "url": null
+      }
+    ]
+  },
   "credo": {
     "title": {
       "he": "כללי הפעולה שלי",

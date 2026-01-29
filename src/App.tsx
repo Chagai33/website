@@ -3,6 +3,7 @@ import { useLanguage } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { Services } from './components/Services';
 import { WhyWorkWithMe } from './components/WhyWorkWithMe';
 import { Projects } from './components/Projects';
 import { Credo } from './components/Credo';
@@ -20,6 +21,7 @@ function App() {
         <main className="max-w-7xl mx-auto px-4 md:px-6 space-y-32 pb-20">
           <Hero />
           <About />
+          <Services />
           <WhyWorkWithMe />
           <Projects />
           {/* Credo might be redundant or need restyle, keeping for now but ensuring spacing */}

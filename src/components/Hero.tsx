@@ -1,6 +1,8 @@
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'framer-motion';
 import { Terminal } from './Terminal';
+import rawSiteContent from '../data/site-content.json';
+const siteContent = rawSiteContent as any;
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -33,30 +35,24 @@ export const Hero = () => {
               </span>
             </motion.div>
 
-            {/* H1 - Aggressive Typography */}
+            {/* H1 - From JSON */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.5 }}
               className="text-6xl md:text-8xl font-black mb-3 md:mb-6 leading-tight tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/50"
             >
-              {t({
-                he: 'מערכות שעובדות. לאנשים שלא רוצים לחשוב עליהן.',
-                en: "Systems That Work. For People Who'd Rather Not Think About Them."
-              })}
+              {t(siteContent.hero.title)}
             </motion.h1>
 
-            {/* Subtitle */}
+            {/* Subtitle - From JSON */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}
               className="text-lg md:text-xl text-zinc-400 font-light max-w-2xl mb-6 md:mb-10 leading-relaxed text-balance"
             >
-              {t({
-                he: 'רקע של עשור בתשתיות, ענן ואבטחה — עם יכולת לבנות כל מה שנדרש מאפס. אני לא מחפש בעיות לפתור; אני מונע אותן מראש.',
-                en: "A decade of infrastructure, cloud, and security — with the ability to build whatever's needed from scratch. I don't look for problems to solve; I prevent them before they happen."
-              })}
+              {t(siteContent.hero.subtitle)}
             </motion.p>
           </div>
 
@@ -66,9 +62,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* Skills Ticker - Now Full Width Below or Integrated? User kept it in "Hero Section". 
-            Let's keep it below the grid for balance 
-        */}
+        {/* Skills Ticker */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
