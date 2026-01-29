@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* Prevents horizontal sway on mobile */
+  position: relative;
+  /* Establishes a positioning context */
+}
+
 html {
   scroll-behavior: smooth;
 }

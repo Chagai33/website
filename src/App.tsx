@@ -18,7 +18,7 @@ function App() {
   return (
     <HelmetProvider>
       <SEO lang={language} />
-      <div className={`min-h-screen bg-black transition-colors duration-300 ${language === 'he' ? 'rtl' : 'ltr'}`}>
+      <div className={`min-h-screen w-full overflow-hidden bg-black transition-colors duration-300 ${language === 'he' ? 'rtl' : 'ltr'}`}>
         <div className="min-h-screen bg-black text-white pt-20 selection:bg-blue-500/30">
           <Navbar />
 
