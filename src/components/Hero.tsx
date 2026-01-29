@@ -13,7 +13,7 @@ export const Hero = () => {
     <section className="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden pt-12 md:pt-20">
 
       {/* Radial Gradient Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500/20 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500/20 blur-[60px] rounded-full pointer-events-none transform-gpu will-change-transform" />
 
       <div className="container max-w-7xl mx-auto px-6 relative z-10">
 
@@ -29,7 +29,7 @@ export const Hero = () => {
               className="inline-block px-3 py-1 mb-3 md:mb-6 border border-blue-500/30 bg-blue-500/10 rounded-full"
             >
               <span className="text-blue-400 text-xs font-mono tracking-wider font-medium uppercase">
-                {t({ he: 'ארכיטקטורת מערכת & פיתוח', en: 'System Architecture & Development' })}
+                {t({ he: 'אוטומציה · מערכות · פיתוח', en: 'Automation · Systems · Development' })}
               </span>
             </motion.div>
 
@@ -41,8 +41,8 @@ export const Hero = () => {
               className="text-6xl md:text-8xl font-black mb-3 md:mb-6 leading-tight tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/50"
             >
               {t({
-                he: 'הגשר בין תשתית לקוד.',
-                en: 'The Bridge Between Infrastructure & Code.'
+                he: 'מערכות שעובדות. לאנשים שלא רוצים לחשוב עליהן.',
+                en: "Systems That Work. For People Who'd Rather Not Think About Them."
               })}
             </motion.h1>
 
@@ -54,8 +54,8 @@ export const Hero = () => {
               className="text-lg md:text-xl text-zinc-400 font-light max-w-2xl mb-6 md:mb-10 leading-relaxed text-balance"
             >
               {t({
-                he: 'מעל 10 שנים כאיש סיסטם שהפך למפתח Full-Stack. אני לא רק כותב קוד; אני מתכנן את הסביבה בה הוא חי.',
-                en: '10+ Years IT System Admin turned Full-Stack Developer. I don\'t just write code; I architect the environment it lives in.'
+                he: 'רקע של עשור בתשתיות, ענן ואבטחה — עם יכולת לבנות כל מה שנדרש מאפס. אני לא מחפש בעיות לפתור; אני מונע אותן מראש.',
+                en: "A decade of infrastructure, cloud, and security — with the ability to build whatever's needed from scratch. I don't look for problems to solve; I prevent them before they happen."
               })}
             </motion.p>
           </div>

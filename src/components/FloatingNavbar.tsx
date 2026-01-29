@@ -15,7 +15,7 @@ export const FloatingNavbar = () => {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className="fixed top-5 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-5xl"
+      className="fixed top-5 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-5xl transform-gpu will-change-transform"
     >
       <div className="glass-nav rounded-full px-6 py-4 flex items-center justify-between shadow-2xl">
         {/* Logo */}
@@ -30,6 +30,12 @@ export const FloatingNavbar = () => {
             className="text-slate-300 hover:text-blue-400 transition-colors font-medium cursor-pointer"
           >
             {t({ he: 'אודות', en: 'About' })}
+          </button>
+          <button
+            onClick={() => scrollToSection('why-me')}
+            className="text-slate-300 hover:text-blue-400 transition-colors font-medium cursor-pointer"
+          >
+            {t({ he: 'למה אני', en: 'What I Bring' })}
           </button>
           <button
             onClick={() => scrollToSection('projects')}

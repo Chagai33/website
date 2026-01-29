@@ -20,10 +20,10 @@ export const Projects = () => {
           className="mb-16 border-l-2 border-blue-500 pl-6"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 tracking-tight">
-            {t({ he: 'פרויקטים נבחרים', en: 'Selected Projects' })}
+            {t({ he: 'בעיות שפתרתי', en: 'Problems I\'ve Solved' })}
           </h2>
           <p className="text-zinc-500 font-mono text-sm uppercase tracking-widest">
-            {t({ he: 'ארכיטקטורה & קוד', en: 'Architecture & Code' })}
+            {t({ he: 'מחיכוך לשקט תפעולי', en: 'From Friction to Operational Calm' })}
           </p>
         </motion.div>
 

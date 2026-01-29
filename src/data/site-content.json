@@ -10,27 +10,69 @@
   },
   "hero": {
     "title": {
-      "he": "מגשר על התהום שבין התשתית לקוד.",
-      "en": "Bridging the Gap Between Infrastructure and Code."
+      "he": "פחות טעויות. פחות התעסקות. יותר עבודה שקטה.",
+      "en": "Fewer Errors. Less Hassle. More Quiet Work."
     },
     "subtitle": {
-      "he": "ארכיטקט מערכות ומפתח Full-Stack. אני מאמין שפתרונות גדולים לא חייבים להיות מסובכים – הם צריכים להיות יציבים, נגישים ולפתור כאב אמיתי.",
-      "en": "System Architect & Full-Stack Developer. I believe great solutions don't have to be complex—they just need to be stable, accessible, and solve real friction."
+      "he": "איש סיסטם שמפתח כדי לייעל תהליכים, לצמצם טעויות, ולבנות מערכות שאפשר לסמוך עליהן לאורך זמן.",
+      "en": "A systems person who develops to streamline processes, reduce errors, and build systems you can rely on long-term."
     },
     "cta": {
-      "he": "בוא נבנה משהו יציב",
-      "en": "Let's Build Something Solid"
+      "he": "נבחן איך למנוע את התקלה הבאה",
+      "en": "Let's Prevent the Next Incident"
     }
   },
   "about": {
     "title": {
-      "he": "קצת עלי",
-      "en": "About Me"
+      "he": "ניסיון מהשטח, לא מהתיאוריה",
+      "en": "Experience From the Field, Not the Classroom"
     },
     "content": {
-      "he": "אני חגי, ארכיטקט מערכות ומפתח Full-Stack עם תשוקה לחיבור בין עולמות התשתית והפיתוח. אני מתמחה בבניית מערכות יציבות, סקיילביליות ויעילות, תוך שימת דגש על חווית משתמש ופשטות תפעולית.",
-      "en": "I'm Chagai, a System Architect & Full-Stack Developer passionate about bridging infrastructure and development. I specialize in building stable, scalable, and efficient systems, focusing on user experience and operational simplicity."
+      "he": "הרקע שלי כסיסטם לימד אותי לחשוב על תקלות לפני שהן קורות — והגישה הזו מלווה כל שורת קוד שאני כותב.",
+      "en": "My systems background taught me to think about failures before they happen — and that mindset shapes every line of code I write."
+    },
+    "quote": {
+      "he": "אוטומציה היא לא רק קוד שרץ מהר יותר מאדם; היא הדרך היחידה להפוך תהליך שביר ומועד לטעויות – למערכת יציבה שפשוט עובדת ברקע.",
+      "en": "Automation isn't just code that runs faster than a human; it's the only way to transform a fragile, error-prone process into a stable system that just works in the background."
     }
+  },
+  "services": {
+    "title": {
+      "he": "ארגז כלים של 'בנאי', לא רק של מתכנת",
+      "en": "A Builder's Toolbox, Not Just a Coder's"
+    },
+    "items": [
+      {
+        "title": {
+          "he": "כלים פנימיים (Internal Tools)",
+          "en": "Internal Tools"
+        },
+        "text": {
+          "he": "פיתוח דשבורדים ומערכות ניהול שמחליפים אקסלים מסורבלים ותהליכים ידניים ש'נופלים בין הכיסאות'.",
+          "en": "Building dashboards and management systems that replace clunky spreadsheets and manual processes that 'fall through the cracks'."
+        }
+      },
+      {
+        "title": {
+          "he": "אינטגרציות (API & Automation)",
+          "en": "API & Automation"
+        },
+        "text": {
+          "he": "חיבור בין מערכות שלא מדברות אחת עם השנייה, כדי למנוע העתק-הדבק של נתונים וטעויות אנוש.",
+          "en": "Connecting systems that don't talk to each other, eliminating copy-paste data transfers and human errors."
+        }
+      },
+      {
+        "title": {
+          "he": "תחזוקה מונעת (Preventive Dev)",
+          "en": "Preventive Development"
+        },
+        "text": {
+          "he": "כתיבת קוד שלוקח בחשבון את ה-Edge Cases של העולם האמיתי, עם לוגים ברורים ומינימום צורך בתמיכה שוטפת.",
+          "en": "Writing code that accounts for real-world edge cases, with clear logs and minimal need for ongoing support."
+        }
+      }
+    ]
   },
   "projects": [
     {
@@ -39,14 +81,19 @@
         "he": "HebBirthday",
         "en": "HebBirthday"
       },
+      "type": {
+        "he": "SaaS Platform",
+        "en": "SaaS Platform"
+      },
       "description": {
-        "he": "פתרון לבעיית פספוס ימי הולדת עבריים. סנכרון דו-כיווני חכם ל-Google Calendar.",
-        "en": "Solving the 'missed Hebrew birthday' issue via smart bi-directional Google Calendar sync."
+        "he": "אתגר: סנכרון מורכב בין לוחות שנה (עברי/לועזי) שדרש חישובים ידניים חוזרים. פתרון: מערכת Serverless (GCP) שפועלת ב-Scale של אלפי משתמשים עם אפס תחזוקה שוטפת. תוצאה: אוטומציה מלאה של תהליך הניהול, מרמת הרישום ועד הסנכרון ליומן.",
+        "en": "Challenge: Complex sync between calendars (Hebrew/Gregorian) requiring repeated manual calculations. Solution: Serverless system (GCP) operating at scale with thousands of users and zero ongoing maintenance. Result: Full automation from registration to calendar sync."
       },
       "techStack": [
-        "Node.js",
         "React",
-        "Calendar API"
+        "Node.js",
+        "GCP",
+        "Firebase"
       ],
       "url": "https://hebbirthday.app/",
       "highlight": true
@@ -57,142 +104,110 @@
         "he": "שישי שיתופי",
         "en": "Shishi Shitufi"
       },
+      "type": {
+        "he": "Logistics Management",
+        "en": "Logistics Management"
+      },
       "description": {
-        "he": "פלטפורמה לניהול לוגיסטיקה קהילתית בזמן אמת. מחליפה טבלאות אקסל מסורבלות בממשק נגיש.",
-        "en": "Real-time community logistics platform. Replaces chaotic spreadsheets with a seamless mobile interface."
+        "he": "אתגר: ניהול לוגיסטי של אירועים קהילתיים שהתבסס על אקסלים וגרם לטעויות וכפילויות בציוד. פתרון: פלטפורמת Real-time שמסנכרנת מאות משתמשים במקביל ומונעת התנגשויות בזמן אמת. תוצאה: חיסול מוחלט של ה'טלפון השבור' בארגון האירוע.",
+        "en": "Challenge: Event logistics management based on spreadsheets causing errors and equipment duplications. Solution: Real-time platform syncing hundreds of users simultaneously, preventing conflicts in real-time. Result: Complete elimination of 'broken telephone' in event organization."
       },
       "techStack": [
-        "Firebase",
         "React",
-        "Live DB"
+        "Firebase Realtime DB",
+        "Tailwind"
       ],
       "url": "https://shishi-shitufi.netlify.app/",
       "highlight": true
     },
     {
-      "id": "mantzur-gallery",
+      "id": "it-automation",
       "title": {
-        "he": "Mantzur Gallery",
-        "en": "Mantzur Gallery"
+        "he": "Internal IT Automation",
+        "en": "Internal IT Automation"
+      },
+      "type": {
+        "he": "Corporate Tooling",
+        "en": "Corporate Tooling"
       },
       "description": {
-        "he": "גלריית הנצחה לאירועים משפחתיים. פתרון Plug-and-Play שמחליף מצגות ומבטל את הצורך בהעברת קבצים.",
-        "en": "Event-oriented memorial gallery. A Plug-and-Play solution replacing static slides, ensuring zero-transfer compatibility."
+        "he": "אתגר: תהליך Onboarding ידני ואיטי שגזל זמן יקר מצוות ה-IT. פתרון: פיתוח כלי פנימי לניהול נכסים ותהליכים אוטומטיים. תוצאה: קיצור זמן הטיפול בקריאות ב-40% וצמצום טעויות בהקצאת ציוד.",
+        "en": "Challenge: Manual, slow onboarding process consuming valuable IT team time. Solution: Internal tool for asset management and automated workflows. Result: 40% reduction in ticket handling time and fewer equipment allocation errors."
       },
       "techStack": [
-        "Vite",
-        "React",
-        "Responsive"
+        "Python",
+        "PowerShell",
+        "AppSheet"
       ],
-      "url": "https://mantzur.netlify.app/",
-      "highlight": false
-    },
-    {
-      "id": "safephrase",
-      "title": {
-        "he": "SafePhrase IT",
-        "en": "SafePhrase IT"
-      },
-      "description": {
-        "he": "כלי Proactive לצוותי IT. מחשב תאריכי איפוס סיסמה בטוחים כדי למנוע עומס על ה-Help Desk בסופ\"ש וחגים.",
-        "en": "Proactive IT utility calculating safe password reset dates to minimize Help Desk load on weekends & holidays."
-      },
-      "techStack": [
-        "Utility",
-        "Date Logic",
-        "Automation"
-      ],
-      "url": "https://safephrase.netlify.app/",
-      "highlight": false
-    },
-    {
-      "id": "phrasepass",
-      "title": {
-        "he": "PhrasePass",
-        "en": "PhrasePass"
-      },
-      "description": {
-        "he": "מחולל סיסמאות מבוסס משפטים (Mnemonic). פותר את הטרייד-אוף שבין אבטחת מידע לנוחות המשתמש.",
-        "en": "Mnemonic password generator. Solves the security-vs-usability trade-off using smart client-side logic."
-      },
-      "techStack": [
-        "Security",
-        "UX",
-        "Algorithms"
-      ],
-      "url": "https://phrasepass.netlify.app/",
-      "highlight": false
-    },
-    {
-      "id": "aum-extension",
-      "title": {
-        "he": "AumExtension",
-        "en": "AumExtension"
-      },
-      "description": {
-        "he": "תוסף כרום ל-Power Users בספוטיפיי. פותר את חיכוך הכפילויות (Duplicate Tracks) ע\"י הזרקת אינדיקטורים ל-DOM.",
-        "en": "Chrome Extension for Spotify power users. Solves duplicate track friction via real-time DOM injection."
-      },
-      "techStack": [
-        "Chrome Ext",
-        "Spotify API",
-        "DOM"
-      ],
-      "url": "https://github.com/Chagai33/AumExtension",
-      "highlight": false
+      "url": null,
+      "highlight": true
     }
   ],
   "credo": {
     "title": {
-      "he": "אני מאמין",
-      "en": "Core Philosophy"
+      "he": "כללי הפעולה שלי",
+      "en": "My Operating Principles"
     },
     "items": [
       {
         "title": {
-          "he": "Utility First",
-          "en": "Utility First"
+          "he": "פשטות מעל הכל",
+          "en": "Simplicity Above All"
         },
         "text": {
-          "he": "לא כל כלי צריך להיות מורכב. הכלים הטובים ביותר הם אלו שחוסכים זמן יקר ומפחיתים חיכוך.",
-          "en": "Not everything needs to be complex. The best tools are those that save time and reduce friction."
+          "he": "הפתרון הטוב ביותר הוא לרוב הפשוט ביותר. אם המערכת מורכבת מדי — משהו לא נכון.",
+          "en": "The best solution is often the simplest one. If the system feels too complex — something's off."
         }
       },
       {
         "title": {
-          "he": "Bridging Contexts",
-          "en": "Bridging Contexts"
+          "he": "ראיית התמונה המלאה",
+          "en": "Seeing the Full Picture"
         },
         "text": {
-          "he": "היכולת להבין גם את השרת וגם את הלקוח מאפשרת לי לבנות פתרונות מלאים ויציבים יותר.",
-          "en": "Understanding both the server and the client allows me to build more stable, complete solutions."
+          "he": "מתשתית ועד ממשק — אני רואה את כל השכבות. זה מאפשר לי לזהות בעיות לפני שהן מגיעות לפרודקשן.",
+          "en": "From infrastructure to interface — I see all the layers. That lets me catch issues before they reach production."
         }
       },
       {
         "title": {
-          "he": "Automation as a Habit",
-          "en": "Automation as a Habit"
+          "he": "אוטומציה כברירת מחדל",
+          "en": "Automation by Default"
         },
         "text": {
-          "he": "אם עושים את זה יותר מפעמיים ידנית - הגיע הזמן לכתוב לזה סקריפט.",
-          "en": "If you do it manually more than twice, it's time to script it."
+          "he": "משימה חוזרת היא שגיאה בהמתנה. אוטומציה מאפשרת עקביות, ומשחררת אנרגיה לדברים שדורשים מחשבה.",
+          "en": "A recurring task is an error waiting to happen. Automation ensures consistency and frees energy for things that require thought."
         }
       }
     ]
   },
+  "contact": {
+    "title": {
+      "he": "מוכנים לעבור מכיבוי שריפות לבניית תשתיות?",
+      "en": "Ready to Move From Firefighting to Building Infrastructure?"
+    },
+    "subtitle": {
+      "he": "אני מחפש את הצוות שצריך מישהו שרואה את התמונה המלאה – מהתשתית ועד הקוד.",
+      "en": "Looking for a team that needs someone who sees the full picture — from infrastructure to code."
+    },
+    "cta": {
+      "he": "בואו נדבר על הפרויקט הבא",
+      "en": "Let's Talk About Your Next Project"
+    }
+  },
   "humanSide": {
     "title": {
-      "he": "מעבר לקוד",
-      "en": "Beyond Code"
+      "he": "לא רק מסכים",
+      "en": "Not Just Screens"
     },
     "text": {
-      "he": "צילום, מוזיקה וסקרנות טכנולוגית. מוזמנים להציץ בעולם הצילום שלי.",
-      "en": "Photography, Music, and Tech Curiosity. Check out my photography portfolio."
+      "he": "כשאני לא מול קוד, אני מאחורי מצלמה. צילום מלמד אותי לראות פרטים שאחרים מפספסים — ולמסגר אותם בצורה שמספרת משהו.",
+      "en": "When I'm not behind code, I'm behind a camera. Photography teaches me to notice details others miss — and frame them in a way that tells a story."
     },
     "link": "https://chagai.pro",
     "linkText": {
-      "he": "לפורטפוליו הצילום (chagai.pro)",
-      "en": "Visit Photography Portfolio"
+      "he": "לעולם הצילום שלי",
+      "en": "Explore My Photography"
     }
   }
 }

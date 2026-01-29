@@ -65,13 +65,13 @@ No content may be copied or reproduced without written permission.`
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white tracking-tight">
-            {t({ he: 'מחפשים מישהו שרואה את התמונה המלאה?', en: 'Need someone who sees the Big Picture?' })}
+            {t({ he: 'צריכים מישהו שמבין מערכות — ויודע גם לבנות?', en: 'Need someone who understands systems — and can build, too?' })}
           </h2>
 
           <p className="text-lg text-slate-400 font-light mb-10">
             {t({
-              he: 'זמין לפרויקטים (Freelance) ושיתופי פעולה טכנולוגיים.',
-              en: 'Available for Freelance projects and technical collaborations.'
+              he: 'זמין לפרויקטים עצמאיים, ייעוץ טכני ושיתופי פעולה ארוכי טווח.',
+              en: 'Open for independent projects, technical consulting, and long-term collaborations.'
             })}
           </p>
         </motion.div>
@@ -90,7 +90,7 @@ No content may be copied or reproduced without written permission.`
             className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white font-semibold rounded-lg transition-all duration-300 cursor-pointer focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-black"
           >
             <Mail className="w-5 h-5" />
-            {t({ he: 'שלח מייל', en: 'Send Email' })}
+            {t({ he: 'בואו נדבר', en: "Let's Talk" })}
           </motion.a>
 
           <motion.a

@@ -34,9 +34,9 @@ export const About = () => {
             className="p-8 bento-card rounded-xl hover:border-indigo-500/50 hover:bg-slate-900/80 transition-all duration-300 cursor-pointer"
           >
             <Server className="w-12 h-12 text-indigo-400 mb-4" />
-            <h3 className="text-2xl font-semibold mb-3 text-white tracking-tight">IT & System Admin</h3>
+            <h3 className="text-2xl font-semibold mb-3 text-white tracking-tight">{t({ he: 'תשתיות, ענן ואבטחה', en: 'Infrastructure, Cloud & Security' })}</h3>
             <p className="text-slate-400 font-light leading-relaxed">
-              10+ {t({ he: 'שנות ניסיון', en: 'years experience' })}
+              {t({ he: 'מעל עשור בשטח', en: '10+ Years in the Field' })}
             </p>
           </motion.div>
 
@@ -49,9 +49,9 @@ export const About = () => {
             className="p-8 bento-card rounded-xl hover:border-indigo-500/50 hover:bg-slate-900/80 transition-all duration-300 cursor-pointer"
           >
             <Code2 className="w-12 h-12 text-indigo-400 mb-4" />
-            <h3 className="text-2xl font-semibold mb-3 text-white tracking-tight">Full-Stack Development</h3>
+            <h3 className="text-2xl font-semibold mb-3 text-white tracking-tight">{t({ he: 'פיתוח ואוטומציה', en: 'Development & Automation' })}</h3>
             <p className="text-slate-400 font-light leading-relaxed">
-              4 {t({ he: 'שנות פיתוח', en: 'years coding' })}
+              {t({ he: 'כלי לפתרון בעיות', en: 'A Tool, Not an Identity' })}
             </p>
           </motion.div>
         </div>
